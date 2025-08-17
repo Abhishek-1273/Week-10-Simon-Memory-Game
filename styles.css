@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(270deg, #002c74, #61c8d8);
+  background-size: 400% 400%;
+  animation: BGColor 10s ease infinite;
+  text-align: center;
+}
+@keyframes BGColor {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  margin:  5%;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  height: 80vh;
+
+}
+h3 {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+  font-weight: normal;
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 800;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 20px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+@media screen and (max-width: 650px) {
+  #level-title {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+  }
+  .row{
+    width: 180px;
+  }
+}
