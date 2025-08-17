@@ -4,16 +4,25 @@ body {
   animation: BGColor 10s ease infinite;
   text-align: center;
 }
+
 @keyframes BGColor {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
-  margin:  5%;
+  margin: 5%;
   color: #ffffff;
 }
 
@@ -26,6 +35,7 @@ body {
   height: 80vh;
 
 }
+
 h3 {
   color: white;
   font-size: 30px;
@@ -37,6 +47,7 @@ h3 {
   padding: 8px 15px;
   border-radius: 10px;
 }
+
 .btn {
   margin: 25px;
   display: inline-block;
@@ -71,6 +82,7 @@ h3 {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
 footer {
   height: 50px;
   display: flex;
@@ -83,7 +95,7 @@ footer {
   backdrop-filter: blur(10px);
   color: #fff;
   font-size: 20px;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (max-width: 650px) {
@@ -91,6 +103,7 @@ footer {
     font-size: 1.2rem;
     line-height: 30px;
   }
+
   .container {
     width: 100%;
     height: 80vh;
@@ -98,12 +111,21 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .btn {
     width: 120px;
     height: 120px;
     margin: 10px;
   }
-  .row{
+
+  .row {
     width: 180px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin: 15px;
+    padding: 4px 7px;
+
   }
 }
