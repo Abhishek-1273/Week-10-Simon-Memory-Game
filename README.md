@@ -9,7 +9,6 @@ Test your memory by repeating the sequence of colors & sounds. Each level gets h
 - [About the Game](#-about-the-game)  
 - [Features](#-features)  
 - [How to Play](#-how-to-play)  
-- [Project Structure](#-project-structure)
 
 ---
 
@@ -27,6 +26,14 @@ The *Simon Memory Game* is a fun and interactive game where the player must repe
 
 ---
 
+## 🛠 Tech Stack  
+- *HTML5* – Page structure  
+- *CSS3* – Styling & button animations  
+- *JavaScript (ES6)* – Game logic  
+- *jQuery* – DOM manipulation  
+
+---
+
 ## 🕹 How to Play  
 1. Press any *key* to start the game.  
 2. Watch as the game flashes a *sequence of colors*.  
@@ -36,8 +43,12 @@ The *Simon Memory Game* is a fun and interactive game where the player must repe
 
 ---
 
-## 🛠 Tech Stack  
-- *HTML5* – Page structure  
-- *CSS3* – Styling & button animations  
-- *JavaScript (ES6)* – Game logic  
-- *jQuery* – DOM manipulation  
+## Preview
+<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/3f5eea11-93f1-430d-b7a3-6cc350008964" />
+
+---
+
+## Link - Click here to Play
+👉 **[Click Here to Visit Website](https://abhishek-1273.github.io/Week-10-Simon-Memory-Game/)**  
+
+
